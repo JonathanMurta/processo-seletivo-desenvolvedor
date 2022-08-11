@@ -1,0 +1,124 @@
+h1
+{
+    margin: 0;
+}
+
+ul, label, li
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+h2, h3, h4, h5, h6
+{
+    margin: 0;
+    font-size: 20px;
+    font-family: 'arial';
+    color: #007fbf;
+    text-align: center;   
+}
+
+h1
+{
+    font-size: 28px;
+    font-family: 'arial';
+    color: #007fbf;
+    text-align: center;
+    margin: 0;
+}
+
+p
+{
+    margin: 0;
+}
+
+body a:hover
+{
+    text-decoration: none;
+}
+
+form div
+{
+    display: inline-block;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+{
+    -webkit-text-fill-color: #000;
+    box-shadow: 0 0 0px 1000px transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus
+{
+    outline-color: transparent;
+    outline: none;
+}
+
+select
+{
+    -ms-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+input[type="submit"],
+button,
+a,
+span,
+p
+{
+    cursor: pointer;
+}
+
+div
+{
+    display: block;
+}
+
+::selection
+{
+    color: #e2e2e2;
+    background: #00689c;
+    background-color: #fff !important;
+}
+
+.clearfix:before,
+.clearfix:after
+{
+    display: table;
+    content: " ";
+}
+
+.clearfix:after
+{
+    clear: both;    
+}
+
+input[type=number]::-webkit-inner-spin-button 
+{ 
+    -webkit-appearance: none;
+}
+
+body 
+{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}

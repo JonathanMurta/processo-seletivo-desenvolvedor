@@ -1,0 +1,98 @@
+.info-user
+{
+    width: 23%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e9e9e9;
+    border-radius: 4px;
+    margin: 0 26px 26px 0;
+}
+
+.info-user:last-child
+{
+    margin: 0;
+}
+
+.info-user .image-info-user
+{
+    width: 100%;
+    height: 60%;
+    background-color: #33363e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-user .image-info-user span
+{
+    color: #989a9f;
+    font-family: arial;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.info-user .data-info-user
+{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.info-user .data-info-user h2
+{
+    font-family: 'arial';
+    font-size: 22px;
+    color: #5c5d60;
+    margin: 5px 0 10px 0;
+    text-align: left;
+}
+
+.info-user .data-info-user > div
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.info-user .data-info-user > div label,
+.info-user .data-info-user > div span
+{
+    font-family: 'arial';
+    font-size: 16px;
+    color: #5c5c5c;
+    margin-right: 5px;
+}
+
+.info-user .data-info-user > div label
+{
+    min-width: 50px;
+}
+
+.info-user .data-info-user > div span
+{
+    font-weight: 600;
+    color: #46474a;
+    font-size: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.info-user .data-info-user .website
+{
+    position: absolute;
+    bottom: 10px;
+}
+
+.info-user .data-info-user .website a
+{
+    color: #00275b;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 15px;
+}
