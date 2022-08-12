@@ -96,3 +96,11 @@
     color: #fff;
     font-size: 19px;
 }
+
+@media(max-width: 1440px)
+{
+    .menu
+    {
+        width: 70%;
+    }
+}
